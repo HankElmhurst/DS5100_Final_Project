@@ -57,10 +57,12 @@ Die
 * change_weight(self, face: Any, weight: float) -> None
 * roll(self, n: int = 1) -> List[Any]
 * show(self) -> pd.DataFrame
+
 Game
 * __init__(self, dice: List[Die])
 * play(self, n: int) -> None
 * show_results(self, form: str = 'wide') -> pd.DataFrame
+
 Analyzer
 * __init__(self, game: Game)
 * jackpot(self) -> int
